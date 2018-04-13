@@ -1,0 +1,185 @@
+The system is: Darwin - 16.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/3.9.4/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9171e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9171e.dir/build.make CMakeFiles/cmTC_9171e.dir/build
+Building C object CMakeFiles/cmTC_9171e.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_9171e.dir/testCCompiler.c.o   -c "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_9171e
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9171e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9171e.dir/testCCompiler.c.o  -o cmTC_9171e 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4134d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4134d.dir/build.make CMakeFiles/cmTC_4134d.dir/build
+Building C object CMakeFiles/cmTC_4134d.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_4134d.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4134d
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4134d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_4134d.dir/CMakeCCompilerABI.c.o  -o cmTC_4134d 
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_4134d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4134d.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-274.2
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4134d/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4134d.dir/build.make CMakeFiles/cmTC_4134d.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_4134d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_4134d.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.4_1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_4134d]
+  ignore line: [/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4134d.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_4134d.dir/CMakeCCompilerABI.c.o  -o cmTC_4134d ]
+  ignore line: [Apple LLVM version 8.0.0 (clang-800.0.42.1)]
+  ignore line: [Target: x86_64-apple-darwin16.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.12.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_4134d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4134d.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.12.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4134d] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_4134d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce74d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ce74d.dir/build.make CMakeFiles/cmTC_ce74d.dir/build
+Building C object CMakeFiles/cmTC_ce74d.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c11 -o CMakeFiles/cmTC_ce74d.dir/feature_tests.c.o   -c "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_ce74d
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce74d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ce74d.dir/feature_tests.c.o  -o cmTC_ce74d 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed03a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ed03a.dir/build.make CMakeFiles/cmTC_ed03a.dir/build
+Building C object CMakeFiles/cmTC_ed03a.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c99 -o CMakeFiles/cmTC_ed03a.dir/feature_tests.c.o   -c "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_ed03a
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed03a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ed03a.dir/feature_tests.c.o  -o cmTC_ed03a 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b73db/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b73db.dir/build.make CMakeFiles/cmTC_b73db.dir/build
+Building C object CMakeFiles/cmTC_b73db.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -std=c90 -o CMakeFiles/cmTC_b73db.dir/feature_tests.c.o   -c "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_b73db
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b73db.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b73db.dir/feature_tests.c.o  -o cmTC_b73db 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24217/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_24217.dir/build.make CMakeFiles/cmTC_24217.dir/build
+Building C object CMakeFiles/cmTC_24217.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_24217.dir/CheckIncludeFile.c.o   -c "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_24217
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24217.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_24217.dir/CheckIncludeFile.c.o  -o cmTC_24217 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8312a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8312a.dir/build.make CMakeFiles/cmTC_8312a.dir/build
+Building C object CMakeFiles/cmTC_8312a.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/cmTC_8312a.dir/CheckSymbolExists.c.o   -c "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_8312a
+/usr/local/Cellar/cmake/3.9.4_1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8312a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8312a.dir/CheckSymbolExists.c.o  -o cmTC_8312a 
+
+File /Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/glfw-3.2.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
