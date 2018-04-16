@@ -522,9 +522,6 @@
 		<Unit filename="/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/extern/nanogui/nanogui_resources.cpp.rule">
 			<Option target="nanogui-obj"/>
 		</Unit>
-		<Unit filename="/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/extern/nanogui/nanogui_resources.h">
-			<Option target="nanogui-obj"/>
-		</Unit>
 		<Unit filename="/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/main.cpp">
 			<Option target="load_mesh"/>
 		</Unit>
@@ -782,12 +779,6 @@
 		</Unit>
 		<Unit filename="/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/nanogui/src/window.cpp">
 			<Option target="nanogui-obj"/>
-		</Unit>
-		<Unit filename="/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/test.cpp">
-			<Option target="load_mesh"/>
-		</Unit>
-		<Unit filename="/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/test.h">
-			<Option target="load_mesh"/>
 		</Unit>
 		<Unit filename="/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

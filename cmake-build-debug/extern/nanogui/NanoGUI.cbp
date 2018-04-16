@@ -418,9 +418,6 @@
 		<Unit filename="/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/extern/nanogui/nanogui_resources.cpp.rule">
 			<Option target="nanogui-obj"/>
 		</Unit>
-		<Unit filename="/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/extern/nanogui/nanogui_resources.h">
-			<Option target="nanogui-obj"/>
-		</Unit>
 		<Unit filename="/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/extern/nanogui/ext/glfw/include/GLFW/glfw3.h">
 			<Option target="glfw_objects"/>
 		</Unit>

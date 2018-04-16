@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/ICP_Point2Plane.cpp" "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/CMakeFiles/load_mesh.dir/ICP_Point2Plane.cpp.o"
   "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/MultiviewRegistration.cpp" "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/CMakeFiles/load_mesh.dir/MultiviewRegistration.cpp.o"
   "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/main.cpp" "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/CMakeFiles/load_mesh.dir/main.cpp.o"
-  "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/test.cpp" "/Users/vittorione/Documents/3DGeometryWorkspcae/Load mesh/cmake-build-debug/CMakeFiles/load_mesh.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

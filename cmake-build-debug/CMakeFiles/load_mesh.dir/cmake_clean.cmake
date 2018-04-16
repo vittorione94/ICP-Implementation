@@ -4,7 +4,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/load_mesh.dir/ICPSubset.cpp.o"
   "CMakeFiles/load_mesh.dir/MultiviewRegistration.cpp.o"
   "CMakeFiles/load_mesh.dir/ICP_Point2Plane.cpp.o"
-  "CMakeFiles/load_mesh.dir/test.cpp.o"
   "load_mesh.pdb"
   "load_mesh"
 )

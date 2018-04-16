@@ -1589,6 +1589,3 @@ CMakeFiles/load_mesh.dir/main.cpp.o: main.cpp
 CMakeFiles/load_mesh.dir/main.cpp.o: nanoflann.hpp
 CMakeFiles/load_mesh.dir/main.cpp.o: /usr/local/include/GLFW/glfw3.h
 
-CMakeFiles/load_mesh.dir/test.cpp.o: ../test.cpp
-CMakeFiles/load_mesh.dir/test.cpp.o: ../test.h
-

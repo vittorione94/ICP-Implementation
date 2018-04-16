@@ -90,13 +90,9 @@ MESSAGE(STATUS "NANOGUI_EXTRA_INCS: ${NANOGUI_EXTRA_INCS}")
 MESSAGE(STATUS "NANOGUI_EXTRA_LIBS: ${NANOGUI_EXTRA_LIBS}")
 link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/extern/nanogui/ext_build/glfw/src/libglfw.3.2.dylib)
 
-### NANOVG
-#set(NANOVG_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/extern/nanogui/ext/nanovg/src/ )
-#INCLUDE_DIRECTORIES(${NANOVG_INCLUDE_DIR})
-#LIST(APPEND LIB_LIBRARIES ${NANOVG_INCLUDE_DIR})
 
-set(SOURCE_FILES main.cpp cmake-build-debug/main.cpp cmake-build-debug/ICP.cpp cmake-build-debug/ICP.h cmake-build-debug/ICPSubset.cpp cmake-build-debug/ICPSubset.h cmake-build-debug/MultiviewRegistration.cpp cmake-build-debug/MultiviewRegistration.h cmake-build-debug/ICP_Point2Plane.cpp cmake-build-debug/ICP_Point2Plane.h test.cpp test.h)
-add_executable(load_mesh ${SOURCE_FILES} test.cpp test.h)
+set(SOURCE_FILES cmake-build-debug/main.cpp cmake-build-debug/ICP.cpp cmake-build-debug/ICP.h cmake-build-debug/ICPSubset.cpp cmake-build-debug/ICPSubset.h cmake-build-debug/MultiviewRegistration.cpp cmake-build-debug/MultiviewRegistration.h cmake-build-debug/ICP_Point2Plane.cpp)
+add_executable(load_mesh ${SOURCE_FILES} )
 #target_link_libraries(load_mesh ${LIB_LIBRARIES} ${LIBRARIES})
 
 # Add defines
